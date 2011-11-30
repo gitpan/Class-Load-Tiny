@@ -43,13 +43,14 @@
       "bugtracker" : {
          "web" : "https://github.com/AlexBio/Class-Load-Tiny/issues"
       },
+      "homepage" : "http://search.cpan.org/dist/Class-Load-Tiny/",
       "repository" : {
          "type" : "git",
          "url" : "git://github.com/AlexBio/Class-Load-Tiny.git",
          "web" : "https://github.com/AlexBio/Class-Load-Tiny"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_Dist_Zilla" : {
       "plugins" : [
          {

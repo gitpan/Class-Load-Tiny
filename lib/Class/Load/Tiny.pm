@@ -1,6 +1,6 @@
 package Class::Load::Tiny;
 {
-  $Class::Load::Tiny::VERSION = '0.01';
+  $Class::Load::Tiny::VERSION = '0.02';
 }
 
 use strict;
@@ -12,6 +12,7 @@ use Try::Tiny;
 use base 'Exporter';
 
 our @EXPORT_OK = qw(load_class try_load_class is_class_loaded);
+our %EXPORT_TAGS = (all => \@EXPORT_OK);
 
 =head1 NAME
 
@@ -19,7 +20,7 @@ Class::Load::Tiny - a working (require "Class::Name") and (not much) more
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 

@@ -2,6 +2,56 @@
 Changes from 2010-11-30 00:00:00 +0000 to present.
 ==================================================
 
+-----------------------------------------
+version 0.02 at 2011-11-30 20:49:32 +0000
+-----------------------------------------
+
+  Change: 12a30d4782c280bb591b5ebdb61ab96be319c3c2
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date : 2011-11-30 21:47:48 +0000
+
+    bump version 
+
+  Change: 1b842982b42a681787be89555abeb80c6d3b124b
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date : 2011-11-30 21:45:40 +0000
+
+    add %EXPORT_TAGS as per SYNOPSIS example 
+
+-----------------------------------------
+version 0.01 at 2011-11-30 20:38:20 +0000
+-----------------------------------------
+
+  Change: 093bdb819def40d76dc967e5e524100dcd95878b
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date : 2011-11-30 21:38:20 +0000
+
+    actually check Package::Stash load 
+
+  Change: 87f00bcd88e8a4958aaa321be49d6d6556979238
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date : 2011-11-30 21:31:06 +0000
+
+    add optional is_class_loaded from Class::Load (uses Package::Stash) 
+
+  Change: 889a8d82d0e86c99b52558dd061aaae129e056ab
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date : 2011-11-30 20:54:42 +0000
+
+    add proper class name check, thanks Module::Runtime 
+
+  Change: 1e022d69088307d1c49a83ab4cb339e4e432d140
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date : 2011-11-30 20:32:41 +0000
+
+    add some tests 
+
+  Change: 7be864146412806a981aec9899e4b05c9d2a4d39
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date : 2011-11-30 20:32:29 +0000
+
+    initial commit 
+
 ================
 End of releases.
 ================
