@@ -1,9 +1,31 @@
 ==================================================
-Changes from 2010-11-30 00:00:00 +0000 to present.
+Changes from 2010-12-02 00:00:00 +0000 to present.
 ==================================================
 
 -----------------------------------------
-version 0.02 at 2011-11-30 20:49:32 +0000
+version 0.03 at 2011-12-02 16:54:21 +0000
+-----------------------------------------
+
+  Change: b3ff01d83b074da133e9f7d9a8f32eabb77485d0
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date : 2011-12-02 17:52:58 +0000
+
+    bump version 
+
+  Change: 353ece51ecd823deb393972c1f19f2f8022f3785
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date : 2011-12-02 17:52:36 +0000
+
+    add SEE ALSO section 
+
+  Change: 51eef2baaf2cf5b87b128edeef93b4952e751b9f
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date : 2011-12-02 17:52:35 +0000
+
+    some docs fixes 
+
+-----------------------------------------
+version 0.02 at 2011-11-30 20:47:48 +0000
 -----------------------------------------
 
   Change: 12a30d4782c280bb591b5ebdb61ab96be319c3c2

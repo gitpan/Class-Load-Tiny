@@ -27,7 +27,7 @@ resources:
   bugtracker: https://github.com/AlexBio/Class-Load-Tiny/issues
   homepage: http://search.cpan.org/dist/Class-Load-Tiny/
   repository: git://github.com/AlexBio/Class-Load-Tiny.git
-version: 0.02
+version: 0.03
 x_Dist_Zilla:
   plugins:
     -

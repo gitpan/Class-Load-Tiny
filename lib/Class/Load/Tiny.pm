@@ -1,6 +1,6 @@
 package Class::Load::Tiny;
 {
-  $Class::Load::Tiny::VERSION = '0.02';
+  $Class::Load::Tiny::VERSION = '0.03';
 }
 
 use strict;
@@ -20,7 +20,7 @@ Class::Load::Tiny - a working (require "Class::Name") and (not much) more
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 
@@ -35,10 +35,10 @@ version 0.02
 
 =head1 DESCRIPTION
 
-Class::Load::Tiny is a minimal implementation of some of the functions of
+B<Class::Load::Tiny> is a minimal implementation of some of the functions of
 L<Class::Load>. It is only meant to provide an almost dependency-free version of
-the "core" of Class::Load. If you don't need to avoid some more dependencies in
-your code, you should probably use Class::Load instead.
+the "core" of L<Class::Load>. If you don't need to avoid some more dependencies in
+your code, you should probably use L<Class::Load> instead.
 
 =head1 SUBROUTINES
 
@@ -141,7 +141,7 @@ sub _module_file_from_class {
 
 =head2 _check_class_name( $class )
 
-Return 0. 0 and C<$error> in list context.
+Che if C<$class> is a proper module name.
 
 =cut
 
@@ -169,6 +169,10 @@ sub _error {
 =head1 AUTHOR
 
 Alessandro Ghedini <alexbio@cpan.org>
+
+=head1 SEE ALSO
+
+L<Class::Load>
 
 =head1 LICENSE AND COPYRIGHT
 
