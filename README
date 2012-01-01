@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution Class-Load-Tiny,
-version 0.03:
+version 0.04:
 
   a working (require "Class::Name") and (not much) more
 

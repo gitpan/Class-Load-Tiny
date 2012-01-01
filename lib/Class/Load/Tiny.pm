@@ -1,6 +1,6 @@
 package Class::Load::Tiny;
 {
-  $Class::Load::Tiny::VERSION = '0.03';
+  $Class::Load::Tiny::VERSION = '0.04';
 }
 
 use strict;
@@ -20,7 +20,7 @@ Class::Load::Tiny - a working (require "Class::Name") and (not much) more
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 SYNOPSIS
 
@@ -121,11 +121,7 @@ sub is_class_loaded {
 	return (exists $INC{$file}) ? 1 : 0;
 }
 
-=head1 INTERNAL METHODS
-
-=head2 _module_file_from_class( $class )
-
-Convert C<$class> from C<Module::Name> to C<Module/Name.pm>.
+=for Pod::Coverage _module_file_from_class _check_class_name _error
 
 =cut
 
@@ -139,12 +135,6 @@ sub _module_file_from_class {
 	return "$class.pm";
 }
 
-=head2 _check_class_name( $class )
-
-Che if C<$class> is a proper module name.
-
-=cut
-
 sub _check_class_name {
 	my $class = shift;
 
@@ -153,12 +143,6 @@ sub _check_class_name {
 
 	return $class =~ /\A$module_name_rx\z/o;
 }
-
-=head2 _error( $error )
-
-Return 0. 0 and C<$error> in list context.
-
-=cut
 
 sub _error {
 	my $err = shift;

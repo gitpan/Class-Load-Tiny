@@ -1,9 +1,31 @@
 ==================================================
-Changes from 2010-12-02 00:00:00 +0000 to present.
+Changes from 2011-01-01 00:00:00 +0000 to present.
 ==================================================
 
 -----------------------------------------
-version 0.03 at 2011-12-02 16:54:21 +0000
+version 0.04 at 2012-01-01 16:49:37 +0000
+-----------------------------------------
+
+  Change: 3a8a23811dd426a2ef66cef8fe821049c02c3418
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date : 2012-01-01 17:48:32 +0000
+
+    bump version 
+
+  Change: 851bc62fef6032998628f89444e972a2113667e0
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date : 2012-01-01 17:35:52 +0000
+
+    add runtime recommends on Package::Stash 
+
+  Change: 8165f8d82a511be6a297b8748245e0d335dc8651
+  Author: Alessandro Ghedini <al3xbio@gmail.com>
+  Date : 2011-12-03 14:49:37 +0000
+
+    do not document internal subs 
+
+-----------------------------------------
+version 0.03 at 2011-12-02 16:52:58 +0000
 -----------------------------------------
 
   Change: b3ff01d83b074da133e9f7d9a8f32eabb77485d0
