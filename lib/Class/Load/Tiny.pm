@@ -1,6 +1,6 @@
 package Class::Load::Tiny;
 {
-  $Class::Load::Tiny::VERSION = '0.04';
+  $Class::Load::Tiny::VERSION = '0.05';
 }
 
 use strict;
@@ -20,7 +20,7 @@ Class::Load::Tiny - a working (require "Class::Name") and (not much) more
 
 =head1 VERSION
 
-version 0.04
+version 0.05
 
 =head1 SYNOPSIS
 
